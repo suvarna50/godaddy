@@ -36,6 +36,8 @@ public class godaddysd extends godaddybase {
 	public void go_back_to_the_home_page_by_clicking_on_the_go_daddy_logo() throws InterruptedException {
 		Thread.sleep(10000);
 		logoclick(godaddy.getLogo());
+		
+		System.out.println("adding new line");
 	}
 
 	
